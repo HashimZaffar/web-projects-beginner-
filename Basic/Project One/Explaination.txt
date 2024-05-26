@@ -1,0 +1,26 @@
+Create a simple personal homepage with an introduction, a profile picture, and a link to your favorite website.
+
+Explanation:
+
+HTML:
+
+The <html> tag is the root element of the document.
+<head> contains metadata and links to CSS and JavaScript files.
+<body> contains the content displayed on the webpage, such as headings, paragraphs, images, and links.
+
+CSS:
+
+The body is styled to have a light gray background, centered text, and padding.
+The heading is styled with a dark blue color.
+Paragraphs are styled with dark gray color.
+The profile picture is styled to be circular, have a shadow, and be centered.
+The link to the favorite website is styled to change color on hover.
+
+JavaScript:
+
+Waits for the DOM to load.
+Adds an event listener to the link so that when clicked, an alert is shown and then the user is redirected to the favorite website.
+
+
+
+

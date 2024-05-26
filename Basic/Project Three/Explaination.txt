@@ -1,0 +1,23 @@
+Create a table displaying a list of students with their grades and add a feature to calculate the average grade using JavaScript.
+
+
+Explanation
+
+HTML:
+
+We create a table with student names and grades.
+We add a button to trigger the average grade calculation.
+We have a paragraph to display the calculated average grade.
+
+CSS:
+
+Styles are added to make the table look nice.
+The button and average grade paragraph are also styled.
+
+JavaScript:
+
+We define a function calculateAverage that:
+Gets all the grade values.
+Adds them up.
+Calculates the average.
+Displays the average in the paragraph.

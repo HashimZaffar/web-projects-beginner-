@@ -1,0 +1,57 @@
+/* Basic styles for body */
+body {
+    /* Set the font family for the text */
+    font-family: Arial, sans-serif;
+    /* Center the text */
+    text-align: center;
+    /* Set background color to light gray */
+    background-color: #f0f0f0;
+    /* Add some padding around the edges */
+    padding: 20px;
+
+}
+
+
+/* Style for the profile picture */
+#profile-pic {
+    /* Set the width of the image */
+    width: 200px;
+    /* Make the image circular */
+    border-radius: 50%;
+    /* Add some shadow for a better look */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Add margin to space it out from other elements */
+    margin: 20px 0;
+}
+
+
+/* Style for the main heading */
+h1 {
+    /* Set the color of the text to dark blue */
+    color: #333366;
+}
+
+
+/* Style for paragraphs */
+p {
+    /* Set the color of the text to dark gray */
+    color: #666666;
+}
+
+span{
+
+    font-weight: bold;
+}
+
+/* Style for the link to favorite website */
+#favorite-link {
+    /* Set the color of the link text */
+    color: #0033cc;
+    /* Remove the underline from the link */
+    text-decoration: none;
+}
+
+/* Change the color of the link when hovered over */
+#favorite-link:hover {
+    color: #0066ff;
+}

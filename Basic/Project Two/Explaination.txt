@@ -1,0 +1,22 @@
+Build a contact form with name, email, and message fields, and validate the inputs using JavaScript.
+
+Explanation
+
+HTML:
+
+The form consists of labels and input fields for name, email, and a message, followed by a submit button.
+Each field is wrapped in a <div> for styling and layout purposes.
+The id attribute is used to uniquely identify elements, which helps in linking labels and scripting.
+
+CSS:
+
+Basic styling to make the form look neat and visually appealing.
+Focus states are styled to provide visual feedback when the user interacts with form elements.
+
+JavaScript:
+
+The form's submit event is captured to prevent the default form submission.
+Input values are checked to ensure they are not empty.
+The email is validated with a regular expression to ensure it has a valid format.
+Appropriate messages are shown if any validation fails.
+A success message is shown if all validations pass.

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grades</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Our table to show students and their grades -->
+    <table id="gradesTable">
+        <!-- Table header -->
+        <tr>
+            <th>Name</th>
+            <th>Grade</th>
+        </tr>
+        <!-- Table rows with students' data -->
+        <tr>
+            <td>Alice</td>
+            <td class="grade">85</td>
+        </tr>
+        <tr>
+            <td>Bob</td>
+            <td class="grade">90</td>
+        </tr>
+        <tr>
+            <td>Charlie</td>
+            <td class="grade">78</td>
+        </tr>
+        <tr>
+            <td>Diana</td>
+            <td class="grade">92</td>
+        </tr>
+    </table>
+
+    <!-- Button to calculate the average grade -->
+    <button onclick="calculateAverage()">Calculate Average</button>
+    
+    <!-- Area to show the average grade -->
+    <p id="averageGrade">Average Grade: </p>
+
+    <script src="script.js"></script>
+</body>
+</html>

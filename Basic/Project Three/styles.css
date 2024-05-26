@@ -1,0 +1,47 @@
+
+
+/* Set the table width and make borders */
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+
+/* Style for the table headers */
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+
+}
+
+/* Style for the table rows */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Style for the table headers */
+th {
+    background-color: #4CAF50;
+    color: white;
+    text-align: left;
+}
+
+/* Style for the button */
+button {
+
+/* 10px - This value sets the padding for the top and bottom of the element.
+15px - This value sets the padding for the right and left sides of the element. */
+
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* Style for the average grade text */
+#averageGrade {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}

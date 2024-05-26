@@ -1,0 +1,70 @@
+/* Style the form container */
+
+form {
+
+    width: 300px;
+    /* Set the width of the form */
+    margin: 0 auto;
+    /* Center the form horizontally */
+    padding: 1em;
+    /* Add some padding around the form */
+    border: 1px solid #ccc;
+    /* Add a border around the form */
+    border-radius: 1em;
+    /* Round the corners of the border */
+
+    padding-right: 30px;
+
+
+}
+
+/* Style the form elements */
+label,
+input,
+textarea {
+    display: block;
+    /* Make each element a block-level element */
+    width: 100%;
+    /* Make each element take up the full width of its container */
+    margin-bottom: 1em;
+    /* Add some space below each element */
+    
+
+
+
+}
+
+/* Style the input and textarea elements */
+input,
+textarea {
+    padding: 0.5em;
+    /* Add some padding inside the elements */
+    border: 1px solid #ccc;
+    /* Add a border around the elements */
+    border-radius: 0.5em;
+    /* Round the corners of the border */
+
+
+}
+
+/* Style the input and textarea elements when they are focused */
+input:focus, textarea:focus {
+    border-color: #66afe9; /* Change the border color when the element is focused */
+    outline: none; /* Remove the default outline when the element is focused */
+}
+
+
+/* Style the submit button */
+button {
+    padding: 0.7em; /* Add some padding inside the button */
+    border: none; /* Remove the default border */
+    border-radius: 0.5em; /* Round the corners of the button */
+    background-color: #007bff; /* Set the background color of the button */
+    color: white; /* Set the text color of the button */
+    cursor: pointer; /* Change the cursor to a pointer when hovering over the button */
+}
+
+/* Change the background color of the button when hovering over it */
+button:hover {
+    background-color: #0056b3; /* Set the background color of the button when hovered */
+}
